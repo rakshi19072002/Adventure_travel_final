@@ -1,0 +1,80 @@
+/* Resetting default styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(250, 250, 186), pink, pink);
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.left-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 50%;
+}
+
+.square-image,
+.rectangular-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.rectangular-image {
+  width: 200px;
+  height: 400px;
+  margin-left: 220px; /* Adjust margin to position the rectangular image */
+}
+
+.right-text {
+  width: 50%;
+  padding: 20px;
+}
+
+.text-box {
+  background-color: #ff1493; /* Dark pink color */
+  color: black; /* Change text color to black */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.left-images {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px; /* Adjust as needed */
+  width: 70%; /* Adjust width to your preference */
+}
+
+.square-image {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.text-box h6,
+.text-box h1 {
+  letter-spacing: 2px; /* Adjust letter spacing */
+}
+.arrow {
+  width: 20px; /* Decrease the width of the arrow */
+  height: auto; /* Maintain aspect ratio */
+  padding-top: 18px;
+}
+.rectangular-image {
+  width: 300px;
+  height: 488px;
+  /* padding-left: 10px; */
+}
